@@ -1744,14 +1744,36 @@ section {
   }
 }
 @media screen and (max-width: 660px) {
-  .blogs {
-    grid-template-columns: repeat(1, 1fr);
-  }
+.controls{
+top: 80%;
+    bottom: 0px;
+    flex-direction: row;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: var(--color-grey-5);
+}  
 
-  .portfolios {
+.blogs {
     grid-template-columns: repeat(1, 1fr);
   }
+.sec4{
+overflow: hidden;
 }
+.sec3{
+font-size:20px;
+overflow:hidden;
+}
+.sec3{
+oveflow:hidden;
+font-size:20px; 
+}
+  .portfolios{
+    grid-template-columns: repeat(1, 1fr);
+ }
+}
+
 @media screen and (max-width: 1070px) {
   .about-container {
     grid-template-columns: repeat(1, 1fr);
